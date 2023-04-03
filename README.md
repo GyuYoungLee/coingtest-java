@@ -1,2 +1,3 @@
-# coingtest-java
-practice
+# 코딩테스트
+
+* 알고리즘 코딩테스트 Java (김종관)
