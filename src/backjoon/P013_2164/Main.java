@@ -23,3 +23,7 @@ public class Main {
         System.out.println(qu.peek());
     }
 }
+
+/*
+6
+*/

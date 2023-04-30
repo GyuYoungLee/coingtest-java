@@ -23,14 +23,19 @@ public class Main {
                 sum -= i;
                 i++;
             } else {
+                cnt++;
+
                 j++;
                 sum += j;
                 sum -= i;
                 i++;
-                cnt++;
             }
         }
 
         System.out.println(cnt);
     }
 }
+
+/*
+15
+*/

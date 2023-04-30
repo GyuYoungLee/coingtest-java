@@ -38,7 +38,7 @@ public class Main {
             st.pop();
         }
 
-        for (int x : result) sb.append(x).append(' ');
+        for (int x : result) sb.append(x).append(" ");
         System.out.println(sb);
     }
 
@@ -52,3 +52,8 @@ public class Main {
         }
     }
 }
+
+/*
+4
+3 5 2 7
+*/

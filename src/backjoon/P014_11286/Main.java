@@ -16,8 +16,7 @@ public class Main {
             int a_abs = Math.abs(a);
             int b_abs = Math.abs(b);
             if (a_abs == b_abs) {
-                if (a.equals(b)) return 0;
-                else return a - b;
+                return a > b ? 1 : -1;
             } else {
                 return a_abs > b_abs ? 1 : -1;
             }
@@ -31,10 +30,10 @@ public class Main {
             if (op == 0) {
                 // 꺼내기
                 if (!pqu.isEmpty()) {
-                    sb.append(pqu.peek()).append('\n');
+                    sb.append(pqu.peek()).append("\n");
                     pqu.poll();
                 } else {
-                    sb.append(0).append('\n');
+                    sb.append(0).append("\n");
                 }
             } else {
                 // 넣기
@@ -45,3 +44,25 @@ public class Main {
         System.out.println(sb);
     }
 }
+
+/*
+18
+1
+-1
+0
+0
+0
+1
+1
+-1
+-1
+2
+-2
+0
+0
+0
+0
+0
+0
+0
+*/

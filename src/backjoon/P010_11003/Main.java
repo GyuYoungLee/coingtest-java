@@ -28,7 +28,7 @@ public class Main {
             while (!dq.isEmpty() && dq.getLast().value > now) dq.removeLast();
             dq.addLast(new Node(now, i));
 
-            sb.append(dq.getFirst().value).append(' ');
+            sb.append(dq.getFirst().value).append(" ");
         }
 
         // 슬라이딩하면서 각 윈도우 체크
@@ -42,7 +42,7 @@ public class Main {
             // 앞쪽에 기존 값 제거
             if (dq.getFirst().index <= i - L) dq.removeFirst();
 
-            sb.append(dq.getFirst().value).append(' ');
+            sb.append(dq.getFirst().value).append(" ");
         }
 
         System.out.println(sb);
@@ -58,3 +58,8 @@ public class Main {
         }
     }
 }
+
+/*
+12 3
+1 5 2 3 6 2 3 7 3 5 2 6
+*/

@@ -39,3 +39,8 @@ public class Main {
         System.out.println(cnt);
     }
 }
+
+/*
+5 3
+1 2 3 1 2
+*/

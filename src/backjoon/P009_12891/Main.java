@@ -13,6 +13,7 @@ public class Main {
         int S = sc.nextInt();
         int P = sc.nextInt();
         char[] A = sc.next().toCharArray();
+
         for (int i = 0; i < 4; i++) {
             check[i] = sc.nextInt();
             if (check[i] == 0) checkCnt++;
@@ -77,3 +78,9 @@ public class Main {
         }
     }
 }
+
+/*
+4 2
+GATA
+1 0 0 1
+*/

@@ -28,12 +28,19 @@ public class Main {
             } else if (A[i] + A[j] < M) {
                 i++;
             } else {
+                cnt++;
+
                 j--;
                 i++;
-                cnt++;
             }
         }
 
         System.out.println(cnt);
     }
 }
+
+/*
+6
+9
+2 7 4 1 5 3
+*/

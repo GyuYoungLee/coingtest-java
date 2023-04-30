@@ -10,7 +10,8 @@ public class Main {
     public static void main(String[] args) {
         int N = sc.nextInt();
 
-        int sum = 0, max = 0;
+        int sum = 0;
+        int max = 0;
 
         for (int i = 0; i < N; i++) {
             int now = sc.nextInt();
@@ -22,3 +23,8 @@ public class Main {
         System.out.println(result);
     }
 }
+
+/*
+3
+40 80 60
+*/

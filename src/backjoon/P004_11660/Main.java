@@ -39,3 +39,14 @@ public class Main {
         System.out.println(sb);
     }
 }
+
+/*
+4 3
+1 2 3 4
+2 3 4 5
+3 4 5 6
+4 5 6 7
+2 2 3 4
+3 4 3 4
+1 1 4 4
+*/

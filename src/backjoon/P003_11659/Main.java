@@ -29,8 +29,16 @@ public class Main {
             stk = new StringTokenizer(br.readLine());
             int st = Integer.parseInt(stk.nextToken());
             int en = Integer.parseInt(stk.nextToken());
-            sb.append(S[en] - S[st - 1]).append('\n');
+            sb.append(S[en] - S[st - 1]).append("\n");
         }
         System.out.println(sb);
     }
 }
+
+/*
+5 3
+5 4 3 2 1
+1 3
+2 4
+5 5
+*/
